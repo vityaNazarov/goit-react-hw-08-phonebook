@@ -1,0 +1,12 @@
+.btnLogout {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #ff8800;
+}
+
+.btnLogout:hover {
+  background-color: #fb9c30;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transform: scale(1.1);
+}

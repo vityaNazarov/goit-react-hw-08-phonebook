@@ -1,0 +1,54 @@
+.buttonBack {
+  padding: 5px;
+  /* width: 100%; */
+  /* background-color: #92d6caac; */
+}
+
+.btnArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBack {
+  padding: 10px 10px;
+  /* margin-left: 30px; */
+  font-size: 14px;
+  cursor: pointer;
+
+  background-color: #ff8800;
+  border-radius: 50%;
+  border: none;
+  /* box-shadow: 0px 0.5px 0.5px 1px rgba(188, 187, 187, 0.5); */
+}
+
+.btnBack:hover,
+.btnBack:focus {
+  transform: scale(1.1);
+  background-color: #fb9c30;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0px 10px;
+  font-weight: 700;
+  color: black;
+
+  /* &: global(.active) {
+		font-weight: bold;
+	} */
+}
+
+.link.active {
+  color: #ff8800;
+}
